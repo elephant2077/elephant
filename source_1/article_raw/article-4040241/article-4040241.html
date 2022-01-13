@@ -1,0 +1,887 @@
+<div class="cont-desc span_1_of_2">
+ <div class="product-details">
+  <div class="desc span_3_of_2">
+   <h1>
+    概念陷阱：病死率、R0和群体免疫｜大象公会
+   </h1>
+   <p>
+    <span class="cor666">
+     2020年3月24日10时00分
+    </span>
+    <span class="cor666">
+     内容来源：
+     <a href="http://web.anyv.net/index.php/viewnews-46983">
+      大象公会
+     </a>
+    </span>
+   </p>
+   <div id="webbd">
+    <div class="ad_center">
+     <div class="_z7da4gt320p">
+     </div>
+     <script type="text/javascript">
+      (window.slotbydup = window.slotbydup || []).push({
+        id: "u6276870",
+        container: "_z7da4gt320p",
+        async: true
+    });
+     </script>
+    </div>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+  <div class="product-desc">
+   <div id="img-content">
+    <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+     <i class="profile_arrow arrow_out">
+     </i>
+     <i class="profile_arrow arrow_in">
+     </i>
+    </span>
+   </div>
+   <em class="rich_media_meta rich_media_meta_text" id="publish_time">
+   </em>
+  </div>
+  <div class="rich_media_content" id="js_content" style="visibility: hidden;">
+   <p style="text-align: center;">
+    <img class="rich_pages" data-backh="129" data-backw="578" data-ratio="0.22385449457852397" data-src="https://mmbiz.qpic.cn/mmbiz_gif/Z08UWq352tkicAqPAHJH1nydR37gWegDcyuh6yvpnFxzvfcll9fAI11OZMPtzr6GW6Ria0DT5qHdlTsd9UyPZcIA/640?wx_fmt=gif" data-type="gif" data-w="2859" style="width: 100%;height: auto;"/>
+   </p>
+   <h1>
+   </h1>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <strong>
+     <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(29, 32, 136);">
+      COVID-19全球大流行，各种流行病学概念名词频频出现在各种新闻报道中，如何理解这些概念，如何利用这些概念来支持或反驳相关的防疫政策？
+     </span>
+    </strong>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;text-align: center;">
+    <strong>
+     <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(29, 32, 136);">
+     </span>
+    </strong>
+    <span style='color: rgb(29, 32, 136);font-size: 15px;letter-spacing: 0.5px;text-align: center;font-family: mp-quote, -apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;'>
+     文｜無定著
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <h1 style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     一个搞数据的人，如果不问数据来源、数据质量、数据产生过程
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （data generating process）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     ，拿到数据，就直接跑模型，那TA一定不是一个好的数据科学家。
+    </span>
+   </h1>
+   <p>
+    <br/>
+   </p>
+   <h1 style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     与此同时，跑模型还要意识到模型的假设是什么，和现实可能差的多远，包含了哪些参数，没有考虑到的参数有哪些等等等等。总的来说，就是George Box的那句名言——和现实的复杂程度相比，「所有模型都是错的，但是有些模型是有用的。」
+    </span>
+   </h1>
+   <p>
+    <br/>
+   </p>
+   <section style="line-height: normal;">
+    <strong>
+     <span style="font-size: 12px;color: rgb(29, 32, 136);">
+      <img class="rich_pages js_insertlocalimg" data-backh="316" data-backw="562" data-ratio="0.5616016427104723" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/Z08UWq352tkYNvSaYpTUI4QKfSfCtkLFapxvvMhrf1PMcULXUyx5ooJeS0J6fsmOZMUBMKlnq6Qpa0YA0jcYlw/640?wx_fmt=png" data-type="png" data-w="974" style="width: 100%;height: auto;"/>
+     </span>
+    </strong>
+   </section>
+   <section style="margin-left: 8px;margin-right: 8px;line-height: normal;">
+    <strong>
+     <span style="font-size: 12px;color: rgb(29, 32, 136);">
+      <span style="letter-spacing: 1px;">
+       · 「
+      </span>
+      <span style='letter-spacing: 0.5px;font-family: mp-quote, -apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;'>
+       所有模型都是错的，但是有些模型是有用的。」
+      </span>
+     </span>
+    </strong>
+   </section>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     COVID-19全球大流行，各种流行病学概念名词频频出现在各种新闻报道中，如何理解这些概念，如何利用这些概念来支持或反驳相关的防疫政策？
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     本文就来谈谈，科学家们估算病死率
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （也称致死率）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     、R0和群体免疫这三个测量值的难度和误差。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;text-align: center;">
+    <span style="color: rgb(29, 32, 136);">
+     <strong>
+      <span style="letter-spacing: 0.5px;font-size: 15px;">
+       病死率
+      </span>
+     </strong>
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     首先来看病死率
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （Case fatality rate）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     ——我认为更合适的叫法应该是Case fatality ratio。Rate和Ratio最大的不同，在于Rate往往在分母中引入了时间维度。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     这个测量工具是非常直观的，就是在一定时期内，在确诊某种疾病的病人中
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （分母）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     ，因此病而死人数
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （分子）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     的比例。问题是，这个定义并不直接涉及「一定时期」是多久，该定义最模糊的地方就在这里。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     理想情况下，如果某种疾病发病痊愈或者致死时间都很快，我们在短期内就可以判断所有确诊病人的痊愈和死亡情况，从而得到一个较为准确的病死率估计。然而流行病的发生是一个不间断的过程，有新病例的出现，也有病程较长既未痊愈也未死亡的病人，在这个过程中如何估算病死率就是一个问题。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p>
+    <img class="rich_pages js_insertlocalimg" data-backh="316" data-backw="562" data-ratio="0.5616016427104723" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/Z08UWq352tkYNvSaYpTUI4QKfSfCtkLFiaA7ItRKYwZcToEHffUQjLzOvO1VA3nkZwWJsqC7EmG1yhiboww6aZAQ/640?wx_fmt=png" data-type="png" data-w="974" style="width: 100%;height: auto;"/>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     再从分子和分母的角度看。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     分母是已确诊的病人，在检测条件有限的情况下，这个数字一定是小于目前已感染人数的，其中重症病人的比例较高
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （这里暂时不考虑检测的假阴和假阳情况）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     。而像美国华盛顿州养老院感染这样的情况下，分母人群大多高龄有基础疾病。从这些角度看，目前估算的病死率可能高估了在更广泛人群中的病死率。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     而另一方面，病死率的分子是已经确认死亡的人，由于某些人的病程较长，一些将死未死的人还没有被计入分子中，而如果数据发布方没有固定分母，不断加入新确诊人群进入分母，那么这个数字浮动也是有可能低估病死率的。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     病死率在医院和医院之间，根据不同的接收病人情况、治疗方法、医疗水平、资源多寡等，都会有很大的差别。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     同理，在评估一个国家的病死率的时候，一般都用总死亡数除以总确诊案例，也会出现以上提到的各种误差——检测能力、医疗水平、人口结构等。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     检测能力强的国家
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （例如韩国）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     分母数值更接近于现实中的总感染数，而检测条件十分有限的国家，无法检测轻症患者，目前的确诊案例会远低于人群中的总感染数。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     目前，所有的COVID-19相关统计数字，都与各个国家不同的检测能力和检测政策息息相关，低收入国家目前较少或极少的案例数，很可能是因为检测、死亡死因统计难度很大导致数据匮乏。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <h2 style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;text-align: center;">
+    <span style="color: rgb(29, 32, 136);">
+     <strong>
+      <span style="letter-spacing: 0.5px;font-size: 15px;">
+       R0
+      </span>
+     </strong>
+    </span>
+   </h2>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     再来看R0
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （基本传染数-Basic reproduction numb
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     er）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     ——它的准确发音应该是R-naught。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     R0是病原体传染性
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （contagiousness）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     强弱的一个指标，估算的是在传染病爆发初期
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （所有人都没有免疫的时候）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     一个有传染性的已感染者，平均可以直接传染多少人。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     例如下图所示，灰色为感染者，白色为未感染病原体的易感者，以此估算，R0大概就在2左右。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <section style="line-height: normal;">
+    <strong>
+     <img class="rich_pages js_insertlocalimg" data-backh="332" data-backw="562" data-ratio="0.5903490759753593" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/Z08UWq352tkYNvSaYpTUI4QKfSfCtkLFawzXZmHlTgpiaK7XRdyWBwkuRHw9fxhPXPkf0uQnvMNdrp5BfYgu7cw/640?wx_fmt=png" data-type="png" data-w="974" style="width: 100%;height: auto;"/>
+    </strong>
+   </section>
+   <section style="margin-left: 8px;margin-right: 8px;line-height: normal;">
+    <strong>
+     <span style="letter-spacing: 1px;font-size: 12px;color: rgb(29, 32, 136);">
+      · 图中R0大约为2
+     </span>
+    </strong>
+   </section>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     我们为什么关心R0？因为当R0大于1的时候，传染病会迅速传播开，变得流行， 如果不防控，就会指数增长；R0等于1的时候，传染病是地方性的
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （endemic）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     ，可控的，与人群长期存在；而只有R0小于1的时候，传染病才会因为无法传播开而逐渐消失。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     R0目前的应用和估算的难度在于，它同时包含了对人类行为和病原体生物学特性的估计。对于任何一种传染病的病原体，如果做一下系统的文献综述，会发现R0的估算可能会有很大的差别。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     R0基本上都是从模型中估算出来的，而每一个参数的估算都需要一定的假设。估算R0最常见的方法是估算以下三个主要参数并相乘：
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     1、一个已感染者和易感者
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （即未感染者）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     每次接触传染病原体的概率
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （infection rate）；
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     2、一个已感染者感染之后有传染性的传播时长
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （contact duration）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     ；
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     3、一个已感染者和易感者接触的频率
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （contact rate）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     。
+    </span>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <img class="rich_pages js_insertlocalimg" data-backh="473" data-backw="562" data-ratio="0.8418891170431212" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/Z08UWq352tkYNvSaYpTUI4QKfSfCtkLFtple6wSLMuRTkMvD2UviavcZicRkwrxFR6QdVniaaq0RpzTicOTLd2cJqQ/640?wx_fmt=png" data-type="png" data-w="974" style="width: 100%;height: auto;"/>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     我们当然还可以根据病原体、宿主和环境的特性引入其它参数，增加模型的复杂性。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     R0会随着抗疫政策、人群隔离行为等环境因素，在传染病流行的进程中发生变化。最容易影响的参数就是人与人的接触频率，会根据人口密度，社会组织类型、防疫政策等因素产生巨大变化。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     从已有经验看，COVID-19传染性较强，且可以无症状传染，这就增加了病原体的传播时长和人与人每次接触传染的概率，并且很难通过直接检测症状来隔离已感染者。因此，人们需要通过大范围的隔离，减少亲密接触来尽可能降低R0。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     下图为研究者与伦敦卫生与热带医学学院传染病数学建模中心
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （CMMID）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     目前估算的世界各地区R0范围[1]，只有把R0降到1左右甚至1以下的地区，才可能做到拉平曲线，减轻医疗系统的负担。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <section style="line-height: normal;">
+    <strong>
+     <img class="rich_pages js_insertlocalimg" data-backh="367" data-backw="578" data-ratio="0.6349206349206349" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/Z08UWq352tkYNvSaYpTUI4QKfSfCtkLFR6fXEiaQ4fAYzj76TzeZ19icE2gZjomjvFQcjPKtP7d2sQLHUVO0qDxA/640?wx_fmt=png" data-type="png" data-w="945" style="width: 100%;height: auto;"/>
+    </strong>
+   </section>
+   <section style="margin-left: 8px;margin-right: 8px;line-height: normal;">
+    <strong>
+     <span style="letter-spacing: 1px;font-size: 12px;color: rgb(29, 32, 136);">
+      · R0估算范围目前在1左右的国家有伊朗，挪威，瑞典，韩国， 中国，日本，巴林，斯洛文尼亚，卡塔尔【从左至右】。而R0在1以下的地区只有丹麦和湖北。（注：该数据可能因前文所述的统计问题存在偏差）
+     </span>
+    </strong>
+   </section>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     中国在武汉封城之后两周的高强度抗疫可以说已经把R0降到了1以下。但是一旦复工，如果有无症状的新增病例出现，加上其它地区的输入病例，由于大城市人口密度很高、人与人接触频率大，R0又会上升。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     COVID-19本身的特性不是以人的意志为转移的——无症状传染，在某些个体中很长的潜伏期，这是这次疫情「天灾」的一面。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     人类把这个病毒闷死在中国的努力已经做了，但是失败了，但这并不意味着减缓病毒扩散的努力都是徒劳的。在中国早期抗疫中得到的很多宝贵经验是不少人用生命代价换来的，对现阶段各国的抗疫行动有很重要的借鉴意义。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     R0短期内降到1以下在某些社会是可以做到的，问题是需要维持很长一段时间使得所有潜伏期病例都被发现被隔离，还有很多轻症自愈未必就医等情况。只要有遗漏，一旦这些高强度抗疫举措取消，病毒又会传播开来。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     抗疫期间付出的极大社会成本，又由哪些人来承担呢？感染病毒有一定的病死率，然而经济停摆、强制隔离，也是会死人的。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     社会上最脆弱的人群，失业，没有储蓄，甚至无家可归，不少人有其他的慢性疾病，还有很多人为了维持大部分人的基本生活需求
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （水电油气垃圾处理物流交通等等）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     ，根本不可能在家上班。受疫情影响严重的微小型企业
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （旅游、餐饮等）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     ，很可能因为现金流断裂而破产。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p>
+    <img class="rich_pages js_insertlocalimg" data-backh="386" data-backw="578" data-ratio="0.6673511293634496" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/Z08UWq352tkYNvSaYpTUI4QKfSfCtkLFmgLibCPhzibFzIbhbW7luIR7Y73Fuv3HONuNgWxVOgoKZtraXVxgsPXw/640?wx_fmt=png" data-type="png" data-w="974" style="width: 100%;height: auto;"/>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     各个国家目前的各种政策和措施，比如停课、不允许餐馆堂食、取消各种集会等等，都是在努力降低R0，减缓病毒的扩散速度，减轻医疗系统的压力。而减缓的这个过程
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （在更长的时间更少的人因病死去）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     就是降低死亡率，延长更多人的生命。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     如果采取更极端的抗疫措施，同样会有看不见的人为此付出代价。疫情当下，没有一个决策是容易的，在资源有限的前提下，天平的一头是人命，另一头也是人命。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <h2 style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;text-align: center;">
+    <strong>
+     <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(29, 32, 136);">
+      群体免疫
+     </span>
+    </strong>
+   </h2>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     群体免疫
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （Herd immunity）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     是和R0联系非常紧密的一个流行病学概念，通常用在计算疫苗应当覆盖的人群比例上。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     为什么大规模注射疫苗对于大部分传染病是最有效的方式？因为易感人群比例大幅下降了，而免疫人群又切断了部分到易感者的传播链，有一部分易感者就被保护起来了。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     如下图所示，当人群中有足够多的疫苗接种人群，传染病就无法传播开来，而少部分没有接种疫苗的人被传染的风险大大降低了。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="text-align: center;">
+    <img class="rich_pages" data-backh="756" data-backw="578" data-cropselx1="0" data-cropselx2="578" data-cropsely1="0" data-cropsely2="761" data-ratio="1.308641975308642" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/Z08UWq352tkYNvSaYpTUI4QKfSfCtkLFrebcSoZFLgqHDzC7zRk3DkoW0hibzwrMkfyyqPibRk4ibCeuMdicyaOWbg/640?wx_fmt=png" data-type="png" data-w="810" style="width: 100%;height: auto;"/>
+   </p>
+   <section style="margin-left: 8px;margin-right: 8px;line-height: normal;">
+    <strong>
+     <span style="letter-spacing: 1px;font-size: 12px;color: rgb(29, 32, 136);">
+      · 红色：有传染性的已感染者 / 黄色：易感者 / 绿色：有免疫者
+     </span>
+    </strong>
+    <br/>
+   </section>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     如果我们用R*来表示人群接种疫苗之后的有效R0，即拥有免疫的人群中，一个已感染者的平均传染人数，这个人数大致是R0乘以（1-H）。H是人群中的免疫人群数量比例，即群体免疫。用公式可表达为R^*=R0×(1-H) 。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     由此就可以推断，要彻底告别该传染病流行
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （即要使得R*降到1以下）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     ，需要多少人具有免疫。当R*=1时，由上述公式可知临界值H=1-1/R0，假设R0是2，那么至少需要50%的人群具有群体免疫。假设R0是4，那么至少需要75%以上的人群具有免疫。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     由此可知，群体免疫的计算完全依赖对于R0的估算。前文已经提到R0估算的各种问题，因为模型不同，算出的R0差别会很大。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     例如，麻疹的传染性极强，通常R0的估算范围在12-18左右，但17年一篇系统性文献[2]回顾发现，麻疹的R0在不同地区的估算值从3.7到203.3不等，跨度非常大。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     除了病原体本身的传染性外，还要考虑不同国家和地区的抗疫措施和人群隔离情况的因素。这些措施同样会影响到R0的估值，进而影响到群体免疫数字的估算。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     群体免疫的实现，同样需要全社会的密切配合。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     以麻疹
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （measles）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     为例。一篇被广泛引用的讨论群体免疫的论文[3]给出了几种重要传染病的R0和群体免疫
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （H）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     估计。麻疹传染性强，R0值很大，至少需要人群中90%以上的注射疫苗才能够达到群体免疫。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <section style="line-height: normal;">
+    <strong>
+     <img class="rich_pages js_insertlocalimg" data-backh="373" data-backw="562" data-ratio="0.6634499396863691" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/Z08UWq352tkYNvSaYpTUI4QKfSfCtkLFZ2FichzE0tY5aYnnYDg2X9I5SEEkuxPSxCpHOkvaYNSDOUglMRxc66w/640?wx_fmt=png" data-type="png" data-w="829" style="width: 100%;height: auto;"/>
+    </strong>
+   </section>
+   <section style="margin-left: 8px;margin-right: 8px;line-height: normal;">
+    <strong>
+     <span style="letter-spacing: 1px;font-size: 12px;color: rgb(29, 32, 136);">
+      · 来源：Fine, Paul EM. "Herd immunity: history, theory, practice." Epidemiologic reviews 15.2 (1993): 265-302.
+     </span>
+    </strong>
+   </section>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     1998年，柳叶刀发表了Andrew Wakefield关于MMR疫苗
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （麻疹、腮腺炎和风疹混合疫苗）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     和自闭症相关性的错误研究
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （后被撤稿）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     ，导致疫苗接种率下降，麻疹感染率大幅上升。本可以预防避免的疾病，因为错误信息的流传，给很多孩子造成了巨大的伤害。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     这个事例提醒我们，对于可预防可接种疫苗的传染病，需要大部分人接种疫苗才能形成群体免疫。及时接种疫苗既是保护自己和家人，也是保护其他人，千万不要抱有依靠其他人群体免疫的侥幸心理，因为只要有足够多的人
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （可能只需要10%）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     这么想，群体免疫就没了。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     人类和传染病斗智斗勇这么多年，最有效的终极大招还是疫苗。但目前COVID-19还是全新的病毒，没有疫苗，大部分人都是易感人群。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     这时估算群体免疫，还要考虑痊愈人群的免疫持续时间有多久，对于不同病株
+    </span>
+    <span style="letter-spacing: 0.5px;color: rgb(89, 87, 87);font-size: 12px;">
+     （ 病毒变异）
+    </span>
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     的有效性如何？目前的经验还无法对这些问题下定论。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     在疫苗出来之前，靠群体免疫来结束COVID-19的流行，实在是闷死病毒无望的无奈之举。疫苗研发速度的加快是利好消息，但是即便疫苗临床试验成功，对于病毒新变异的有效性依然是个难题。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     以流感疫苗为例，由于流感病毒变异进化速度很快，每年的季节性流感都会根据不同病株生产疫苗，然而根据美国CDC估计，近十年来流感疫苗的有效性从没有超过60%[4]。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <span style="letter-spacing: 0.5px;font-size: 15px;color: rgb(89, 87, 87);">
+     因而，如果没有足够有效的疫苗，我们很有可能将与新型冠状病毒长期共存。
+    </span>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p>
+    <br/>
+   </p>
+   <p style="margin-left: 8px;margin-right: 8px;line-height: normal;margin-bottom: 5px;">
+    <span style="font-size: 12px;letter-spacing: 1px;color: rgb(178, 178, 178);">
+     注释：
+    </span>
+   </p>
+   <p style="margin-left: 8px;margin-right: 8px;line-height: normal;margin-bottom: 5px;">
+    <span style="font-size: 12px;letter-spacing: 1px;color: rgb(178, 178, 178);">
+     [1]Sebastian Funk*,Sam Abbott,Stefan Flasche&amp;CMMID nCov working group.https://cmmid.github.io/topics/covid19/current-patterns-transmission/global-time-varying-transmission.html
+    </span>
+   </p>
+   <p style="margin-left: 8px;margin-right: 8px;line-height: normal;margin-bottom: 5px;">
+    <span style="font-size: 12px;letter-spacing: 1px;color: rgb(178, 178, 178);">
+     [2]Guerra, Fiona M., et al. "The basic reproduction number (R0) of measles: a systematic review." The Lancet Infectious Diseases 17.12 (2017): e420-e428.
+    </span>
+   </p>
+   <p style="margin-left: 8px;margin-right: 8px;line-height: normal;margin-bottom: 5px;">
+    <span style="font-size: 12px;letter-spacing: 1px;color: rgb(178, 178, 178);">
+     [3] Fine, Paul EM. "Herd immunity: history, theory, practice." Epidemiologic reviews 15.2 (1993): 265-302.
+    </span>
+   </p>
+   <p style="margin-left: 8px;margin-right: 8px;line-height: normal;margin-bottom: 5px;">
+    <span style="font-size: 12px;letter-spacing: 1px;color: rgb(178, 178, 178);">
+     [4] Chung, Jessie R., et al. "Effects of Influenza Vaccination in the United States during the 2018–2019 Influenza Season." Clinical Infectious Diseases (2020)
+    </span>
+   </p>
+   <section style='max-width: 100%;font-family: -apple-system-font, system-ui, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;letter-spacing: 0.544px;white-space: normal;background-color: rgb(255, 255, 255);box-sizing: border-box !important;overflow-wrap: break-word !important;'>
+    <section data-color="#ff8124" data-id="90002" data-tools="135编辑器" style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;">
+     <section style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;">
+      <section style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;">
+       <section style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;">
+        <img class="rich_pages" data-backh="169" data-backw="578" data-ratio="0.29140625" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_jpg/Z08UWq352tkicAqPAHJH1nydR37gWegDcEEgmibGWrCMZSGfIwzcvVJCK7JWa0ebDDdibbbkTTHmNcTcPkrnA0MfQ/640?wx_fmt=jpeg" data-type="jpeg" data-w="1280" style="text-align: center;letter-spacing: 0.544px;width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;visibility: visible !important;height: auto;"/>
+       </section>
+      </section>
+     </section>
+    </section>
+   </section>
+   <p style='margin-right: 8px;margin-left: 8px;max-width: 100%;min-height: 1em;font-family: -apple-system-font, system-ui, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;letter-spacing: 0.544px;white-space: normal;background-color: rgb(255, 255, 255);line-height: 1.75em;text-align: center;box-sizing: border-box !important;overflow-wrap: break-word !important;'>
+    <strong style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;">
+     <span style="max-width: 100%;letter-spacing: 0.5px;font-size: 12px;color: rgb(29, 32, 136);box-sizing: border-box !important;overflow-wrap: break-word !important;">
+      点击徽章，进入大象公会小程序▼
+     </span>
+    </strong>
+   </p>
+   <p style='margin-right: 8px;margin-left: 8px;max-width: 100%;min-height: 1em;font-family: -apple-system-font, system-ui, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;letter-spacing: 0.544px;white-space: normal;background-color: rgb(255, 255, 255);line-height: 1.75em;text-align: center;box-sizing: border-box !important;overflow-wrap: break-word !important;'>
+    <strong style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;">
+     <span style="max-width: 100%;letter-spacing: 0.5px;font-size: 12px;color: rgb(29, 32, 136);box-sizing: border-box !important;overflow-wrap: break-word !important;">
+      <a class="weapp_image_link" data-miniprogram-appid="wxca734bb0fd847ca3" data-miniprogram-nickname="大象公会" data-miniprogram-path="pages/explore/explore" data-miniprogram-servicetype="" data-miniprogram-type="image" href="" style="color: var(--weui-LINK);-webkit-tap-highlight-color: rgba(0, 0, 0, 0);cursor: pointer;max-width: 100%;line-height: 0;letter-spacing: 0.544px;box-sizing: border-box !important;overflow-wrap: break-word !important;">
+       <img class="rich_pages __bg_gif" data-cropselx1="0" data-cropselx2="424" data-cropsely1="0" data-cropsely2="260" data-ratio="0.6118935837245696" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_gif/Z08UWq352tm7bejEYvOa2d8wde737JRTIUbJYGmckoCN2P0MNHtGhkN3FZopS8EZQXunic0n6XgrpIRSOiaHnevA/640?wx_fmt=gif" data-type="gif" data-w="639" style="border-width: 0px;border-style: initial;border-color: initial;background-color: rgb(238, 237, 235);background-size: 22px;background-position: center center;background-repeat: no-repeat;box-sizing: border-box !important;overflow-wrap: break-word !important;visibility: visible !important;width: 425px !important;"/>
+      </a>
+     </span>
+    </strong>
+   </p>
+   <p style="line-height: 1.75em;margin-left: 8px;margin-right: 8px;">
+    <br/>
+   </p>
+  </div>
+ </div>
+ <div class="clear">
+ </div>
+ <div class="ad_sidebar">
+  <div class="bdsharebuttonbox">
+   <a class="bds_more" data-cmd="more" href="#">
+    精彩内容分享到：
+   </a>
+   <a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信">
+    微信
+   </a>
+   <a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间">
+    QQ空间
+   </a>
+   <a class="bds_tsina" data-cmd="tsina" href="#" title="分享到新浪微博">
+    新浪微博
+   </a>
+   <a class="bds_tqq" data-cmd="tqq" href="#" title="分享到腾讯微博">
+    腾讯微博
+   </a>
+   <a class="bds_ibaidu" data-cmd="ibaidu" href="#" title="分享到百度中心">
+    百度中心
+   </a>
+   <a class="bds_renren" data-cmd="renren" href="#" title="分享到人人网">
+    人人网
+   </a>
+   <a class="bds_bdhome" data-cmd="bdhome" href="#" title="分享到百度首页">
+    百度首页
+   </a>
+   <a class="bds_evernotecn" data-cmd="evernotecn" href="#" title="分享到印象笔记">
+    印象笔记
+   </a>
+   <a class="bds_douban" data-cmd="douban" href="#" title="分享到豆瓣网">
+    豆瓣网
+   </a>
+   <a class="popup_bdysc" data-cmd="bdysc" href="#" title="收藏点赞">
+    点赞收藏
+   </a>
+  </div>
+  <script>
+   window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+  </script>
+ </div>
+</div>
