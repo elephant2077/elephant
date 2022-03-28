@@ -41,11 +41,11 @@ def download_and_save_img(img_url, folder):
     https://mmbiz.qpic.cn/mmbiz_jpg/Z08UWq352tkdNk6grHOa6ZY0P4ObZDiceVrGUpm8l3Yup90Stib99y90PNDFXcJl0IoWp0o23zXiczwvkuNYk54gg/640?wx_fmt=jpeg
     https://mmbiz.qpic.cn/mmbiz_gif/aQ4icLkjZVIic0Y7BZmB2icqAj8tu5mic5NhTLRGVHtAzTMCEPmcbhjollPvIolc4LHqoQvibTc6dCfRmWvicPNUq7BQ/640?
     
-    cornet case 1: 
+    corner case 1: 
     article order: 538, key: article-2171520, title: 真正的中国汽车长什么样｜大象公会
     https://mmbiz.qpic.cn/mmbiz/Z08UWq352tnnic2yGoGnal26RlHzPotBmOPF7B7rpcFJliaW3ZpKOSQZdYd3bXUMfwMicM8tH0rhibTiauccmeo9D7A/640
     
-    cornet case 2: 
+    corner case 2: 
     article order: 557, key: article-2134361, title: 中国什么地方的人最能打｜大象公会
     https://mmbiz.qpic.cn/mmbiz/Z08UWq352tnMYlpbR1u6ZgicCRPh1uVxY8Ur6YfnesuibLRkvmXZOOicICfBLYz85x2u6YmpND3woxpiczEQOUlkOQ/640
     '''
